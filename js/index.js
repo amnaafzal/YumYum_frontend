@@ -47,7 +47,7 @@ document.querySelectorAll('.srchBtn').forEach(button => {
 
         if (query) {
             // Redirect to the search results page with the query as a URL parameter
-            window.location.href = `searchedRecipes.html?query=${encodeURIComponent(query)}`;
+            window.location.href = `./html/searchedRecipes.html?query=${encodeURIComponent(query)}`;
         }
     });
 });
