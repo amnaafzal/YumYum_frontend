@@ -26,11 +26,11 @@ LikedRecipesBtn.addEventListener("click", () => {
     if (!token || isTokenExpired(token)) {
         localStorage.removeItem('token'); // Clean it up
         
-        window.location.href = '/frontend/html/login.html'; // Redirect to login
+        window.location.href = './html/login.html'; // Redirect to login
     }
     else {
 
-        window.location.href = '/frontend/html/likedRecipies.html'
+        window.location.href = './html/likedRecipies.html'
     }
 
 })
@@ -52,7 +52,7 @@ loginBtn.addEventListener("click", () => {
     }
 
     else {
-        window.location.href = '/frontend/html/login.html'
+        window.location.href = './html/login.html'
     }
 })
 
