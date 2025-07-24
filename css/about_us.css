@@ -429,7 +429,7 @@ padding: 20px;
     justify-content: center;
     margin-top: 20px;
     /* background-color: rgb(243, 240, 240); */
-    background-image: url("/frontend/pexels-pixabay-262945.jpg");
+    background-image: url("../pexels-pixabay-262945.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
