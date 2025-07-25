@@ -107,7 +107,7 @@ submit_login.addEventListener("click", (e) => {
             //redirect to the home page if the user is real
             if(response.status === 200){
 
-                window.location.href = "index.html"
+                window.location.href = "../index.html"
             }
             return response.json()
         })
