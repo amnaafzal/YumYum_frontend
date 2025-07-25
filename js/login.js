@@ -63,7 +63,7 @@ submit_signup.addEventListener("click", (e) => {
         redirect: "follow"
     };
 
-    fetch("http://localhost:5000/auth/signup", requestOptions)
+    fetch("https://052e43b4-fc74-4321-8fd0-4f11f6c3a002-00-2bguuo1h8qs7j.pike.replit.dev/auth/signup", requestOptions)
         .then((response) => {
             if (response.status === 200) {
                 toggle.classList.toggle("toggle_left")
@@ -102,7 +102,7 @@ submit_login.addEventListener("click", (e) => {
         redirect: "follow"
     };
 
-    fetch("http://localhost:5000/auth/login", requestOptions)
+    fetch("https://052e43b4-fc74-4321-8fd0-4f11f6c3a002-00-2bguuo1h8qs7j.pike.replit.dev//auth/login", requestOptions)
         .then((response) => {
             //redirect to the home page if the user is real
             if(response.status === 200){
