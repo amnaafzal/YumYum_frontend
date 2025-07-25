@@ -1,9 +1,5 @@
 let mainContainer=document.querySelector(".mainContainer")
 
-
-
-
-
 let slideBoxes=document.querySelector(".slideBoxes");
 let preBtn=document.querySelector(".preBtn");
 let nextBtn=document.querySelector(".nextBtn");
@@ -55,5 +51,5 @@ document.querySelectorAll('.srchBtn').forEach(button => {
 
 
 
-// change login to user profile
+
 
