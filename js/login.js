@@ -102,7 +102,7 @@ submit_login.addEventListener("click", (e) => {
         redirect: "follow"
     };
 
-    fetch("https://052e43b4-fc74-4321-8fd0-4f11f6c3a002-00-2bguuo1h8qs7j.pike.replit.dev//auth/login", requestOptions)
+    fetch("https://052e43b4-fc74-4321-8fd0-4f11f6c3a002-00-2bguuo1h8qs7j.pike.replit.dev/auth/login", requestOptions)
         .then((response) => {
             //redirect to the home page if the user is real
             if(response.status === 200){

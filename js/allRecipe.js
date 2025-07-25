@@ -336,7 +336,7 @@ let likeItem = (likeBtn,meal) => {
             heart.classList.add("liked");
             
     
-            const res = await fetch("http://localhost:5000/likerecipe/post",{
+            const res = await fetch("https://052e43b4-fc74-4321-8fd0-4f11f6c3a002-00-2bguuo1h8qs7j.pike.replit.dev/likerecipe/post",{
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
@@ -353,7 +353,7 @@ let likeItem = (likeBtn,meal) => {
         else{
             heart.classList.remove('liked')
 
-            const res = await fetch("http://localhost:5000/likerecipe/delete",{
+            const res = await fetch("https://052e43b4-fc74-4321-8fd0-4f11f6c3a002-00-2bguuo1h8qs7j.pike.replit.dev/likerecipe/delete",{
                     method: "DELETE",
                     headers: {
                         "Content-Type": "application/json",

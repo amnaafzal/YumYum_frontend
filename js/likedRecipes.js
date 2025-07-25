@@ -22,7 +22,7 @@ async function displayLikedRecipes() {
 
 
 
-    let data = await fetch('http://localhost:5000/likerecipe/get', {
+    let data = await fetch('https://052e43b4-fc74-4321-8fd0-4f11f6c3a002-00-2bguuo1h8qs7j.pike.replit.dev/likerecipe/get', {
         method: "GET",
         headers: {
             "Content-Type": "application/json",
@@ -79,7 +79,7 @@ async function displayLikedRecipes() {
             let heart = likeBtn.querySelector("i")
             heart.classList.toggle("liked");
 
-            const data = await fetch("http://localhost:5000/likerecipe/delete", {
+            const data = await fetch("https://052e43b4-fc74-4321-8fd0-4f11f6c3a002-00-2bguuo1h8qs7j.pike.replit.dev/likerecipe/delete", {
                 method: "DELETE",
                 headers: {
                     "Content-Type": "application/json",
