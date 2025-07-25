@@ -122,7 +122,7 @@ let likeItem = (likeBtn,meal) => {
 
 let openRecipe=(title)=>{
     if (title) {
-        window.location.href = `openRecipe.html?title=${encodeURIComponent(title)}`;
+        window.location.href = `../html/openRecipe.html?title=${encodeURIComponent(title)}`;
     }
 
 }
