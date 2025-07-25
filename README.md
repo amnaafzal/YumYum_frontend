@@ -7,7 +7,7 @@ Welcome to **YumYum Recipes**, your one-stop destination to discover and explore
 
 ## 🚀 Live Preview
 
-👉 [Click here to explore the app!](https://your-live-link.vercel.app)  
+👉 [Click here to explore the app!](https://yum-yum-frontend.vercel.app/)  
 *(Deployed via Vercel)*
 
 ---
