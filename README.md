@@ -37,13 +37,13 @@ Welcome to **YumYum Recipes**, your one-stop destination to discover and explore
 ## 📸 Screenshots
 
 Home page
-> ![Home Page](/frontend/images/home_page.png)
+> ![Home Page](/images/home_page.png)
 
 All Recipes Page
-> ![All Recipes ](/frontend/images/recipes_page.png)
+> ![All Recipes ](/images/recipes_page.png)
 
 Login Page
-> ![Login page](/frontend/images/loginpage.png)
+> ![Login page](/images/loginpage.png)
 
 ---
 
@@ -67,4 +67,8 @@ frontend/
 ```
 anyone can get the backend code on 
 
+> ![Click here to get backend](https://github.com/amnaafzal/Yumyum_backend.git)
+
 -----
+
+
