@@ -66,7 +66,7 @@ frontend/
 
 ```
 anyone can get the backend code on 
-![https://github.com/amnaafzal/Yumyum_backend.git](https://github.com/amnaafzal/Yumyum_backend.git)
+> [https://github.com/amnaafzal/Yumyum_backend.git](https://github.com/amnaafzal/Yumyum_backend.git)
 
 -----
 
